@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap');
+
+:root {
+    --PaleBlue: hsl(225, 100%, 94%);
+    --BrightBlue: hsl(245, 75%, 52%);
+    --VeryPaleBlue: hsl(225, 100%, 98%);
+    --DesaturatedBlue: hsl(224, 23%, 55%);
+    --DarkBlue: hsl(223, 47%, 23%);
+
+    --mobile: 375px;
+    --desktop: 1440px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+body {
+    background: url('images/pattern-background-desktop.svg');
+    background-color: var(--PaleBlue);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    width: var(--desktop);
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.box {
+    width: 25%;
+    min-height: 550px;
+    background-color: var(--VeryPaleBlue);
+    border-radius: 10px;
+    margin: 5% auto;
+
+}
+
+.box img {
+
+    width: 100%;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.box .text {
+    width: 100%;
+    margin: 5% 0;
+    text-align: center;
+}
+
+.box .text p {
+    font-size: 15px;
+    color: var(--DesaturatedBlue);
+    margin: 5% 10%;
+}
+
+.box .plan {
+    background-color: hsla(225, 100%, 94%, 0.4);
+    margin: 5% 10%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 5% 3%;
+    font-size: 15px;
+}
+
+.box .plan img {
+    width: 15%;
+}
+
+.box .plan .plan-type {
+    margin-left: 5%;
+}
+
+.box .plan .plan-type .type {
+    font-weight: bold;
+}
+
+.box .plan a {
+    margin-left: 20%;
+    font-weight: bold;
+    color: var(--BrightBlue)
+}
+
+.box .plan a:hover {
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+.payment {
+    background-color: var(--BrightBlue);
+    margin: 6% 10%;
+    padding: 4% 5%;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 3px 10px var(--BrightBlue);
+}
+
+.payment:hover {
+    background-color: hsla(245, 67%, 52%, 0.576);
+    box-shadow: 0 3px 10px hsla(245, 67%, 52%, 0.576);
+}
+
+.payment a {
+    font-size: 18px;
+    color: var(--PaleBlue);
+    text-decoration: none;
+}
+
+.order {
+    margin: 10% 10%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.order a {
+    text-decoration: none;
+    color: var(--DesaturatedBlue);
+}
+
+.order a:hover {
+    color: black;
+    font-weight: bolder;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
