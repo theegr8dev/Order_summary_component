@@ -60,17 +60,19 @@ body {
 }
 
 .box .plan {
+    width: 75%;
     background-color: hsla(225, 100%, 94%, 0.4);
-    margin: 5% 10%;
+    margin: 5% auto;
     border-radius: 10px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 20% 1fr auto;
     align-items: center;
     padding: 5% 3%;
     font-size: 15px;
 }
 
 .box .plan img {
-    width: 15%;
+    max-width: 90%;
 }
 
 .box .plan .plan-type {
@@ -82,7 +84,7 @@ body {
 }
 
 .box .plan a {
-    margin-left: 20%;
+
     font-weight: bold;
     color: var(--BrightBlue)
 }
