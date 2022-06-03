@@ -48,48 +48,10 @@
 
 @media (min-width:1024px) {
     body {
-        background: url('images/pattern-background-desktop.svg');
+        /* background: url('images/pattern-background-desktop.svg'); */
         background-color: var(--PaleBlue);
         background-repeat: no-repeat;
         background-size: contain;
     }
 
-}
-
-@media (min-width:1441px) and (max-width:2560px) {
-    .container {
-        width: 2560px;
-        max-width: 100%;
-        margin: 0 auto;
-    }
-
-    .box {
-        width: 40%;
-        min-height: 550px;
-        background-color: var(--VeryPaleBlue);
-        border-radius: 10px;
-        margin: 5% auto;
-
-    }
-
-    .box .plan {
-        font-size: 50px;
-    }
-
-    .box .text {
-        font-size: 50px;
-    }
-
-    .box .text p {
-        font-size: 30px;
-    }
-
-    .payment a {
-        font-size: 30px;
-    }
-
-
-    .order {
-        font-size: 30px;
-    }
 }
